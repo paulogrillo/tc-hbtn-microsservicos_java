@@ -65,6 +65,17 @@ public class Song {
 	}
 
 
+	public String getAlbum() {
+		return album;
+	}
+
+
+
+	public void setAlbum(String album) {
+		this.album = album;
+	}
+
+
 
 	@Override
 	public int hashCode() {
@@ -97,3 +108,4 @@ public class Song {
 
 	
 }
+
